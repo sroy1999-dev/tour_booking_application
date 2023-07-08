@@ -1,0 +1,48 @@
+.search__bar {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 3rem;
+    width: max-content;
+    justify-content: center;
+}
+
+.form__group span {
+    font-size: 1.8rem;
+    color: #ee6e6e;
+}
+
+.form__group input {
+    border: none;
+    font-size: 0.9rem;
+    color: var(--heading-color);
+    font-weight: 500;
+}
+
+.form__group input:focus {
+    outline: none;
+}
+
+.form__group h6 {
+    margin-bottom: 0;
+}
+
+.form__group-first {
+    border-right: 2px solid #ad8ab6;
+    padding-right: 1.5rem;
+}
+
+.search__icon > .magnify {
+    width: 100px;
+    font-size: 2rem;
+    padding: 0.4rem;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.search__icon > .magnify:hover {
+    background: rgb(191, 118, 233);
+}
