@@ -8,12 +8,17 @@
   --text-color: #6e7074;
   --font-name: "Roboto", sans-serif;
   --subtitle-font-name: "poppins", sans-serif;
+  --newsletter-background-color: #cae5f9;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
