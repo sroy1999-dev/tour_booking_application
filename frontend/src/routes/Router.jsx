@@ -7,6 +7,7 @@ const Login = React.lazy(() => import('../pages/Login'));
 const Register = React.lazy(() => import('../pages/Register'));
 const SearchResultList = React.lazy(() => import('../pages/SearchResultList'));
 const About = React.lazy(() => import('../pages/About'));
+const ThanksYou = React.lazy(() => import('../pages/ThanksYou'));
 
 const Router = () => {
   return (
@@ -19,6 +20,7 @@ const Router = () => {
         <Route path='/register' element={<Suspense fallback={<div>Loading...</div>}><Register /></Suspense>} />
         <Route path='/tours/search' element={<Suspense fallback={<div>Loading...</div>}><SearchResultList /></Suspense>} />
         <Route path='/about' element={<Suspense fallback={<div>Loading...</div>}><About /></Suspense>} />
+        <Route path='/thank-you' element={<Suspense fallback={<div>Loading...</div>}><ThanksYou /></Suspense>} />
     </Routes>
   )
 }
